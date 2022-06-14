@@ -1,0 +1,27 @@
+
+.Nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    background-color:#F7F8F7;
+    
+}
+.right{
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+.input{
+    margin: 20px 100px ;
+    width: 30%;
+}
+.left{
+    display: flex;
+    width: 15%;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-right: 100px;
+
+}

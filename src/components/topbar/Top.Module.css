@@ -1,0 +1,25 @@
+
+
+.topbar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    color: white;
+    
+    background-color: black;
+}
+
+.topright{
+    width: 30%;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 100px;
+    justify-content: space-around;
+}
+.topleft{
+    width: 30%;
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-around;
+    margin-left: 400px;
+}

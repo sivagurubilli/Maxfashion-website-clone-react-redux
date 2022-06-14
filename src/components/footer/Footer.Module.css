@@ -1,0 +1,14 @@
+
+
+.footer1{
+    display:flex;
+
+}
+
+.footer1r{
+    border: 1px solid red;
+    height: 200px;
+    width: 40%;
+}
+
+
