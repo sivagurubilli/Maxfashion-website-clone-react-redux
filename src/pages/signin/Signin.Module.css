@@ -1,0 +1,27 @@
+
+
+ .inputboxsign{
+    height: 40px;
+    width:80%;
+    margin-top: 20px;
+    margin-left: 20px;
+    border :1px solid grey;
+
+}
+
+.buttonsign{
+    width: 100px;
+    height: 40px;
+    margin-top: 18px;
+    font-size: 16px;
+    background-color: aqua;
+}
+
+.formboxsign{
+    height: auto;
+    width:50%;
+    border :1px solid grey;
+    padding-bottom: 40px;
+    margin: 50px 300px;
+    align-items: center;
+}

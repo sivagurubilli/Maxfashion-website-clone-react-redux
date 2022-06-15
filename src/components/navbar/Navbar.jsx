@@ -6,9 +6,16 @@ import { Input,InputGroup, InputLeftAddon } from '@chakra-ui/react'
 
 import {SearchIcon,LockIcon} from  "@chakra-ui/icons"
 import { Link } from 'react-router-dom'
+import { useContext } from 'react'
+import { AuthContext } from '../../context/Authcontext'
+import { UserContext } from '../../Context/Username'
 
 
 const Navbar = () => {
+
+  const {isAuth,toggleAuth} = useContext(AuthContext)
+  const {username,username11} = useContext(UserContext)
+ 
   return (
     <>    
     <div>{<Topbar />}</div>
@@ -31,7 +38,14 @@ const Navbar = () => {
   </InputGroup>
   </div>
   <div className='left'>
-<Link to="/signup" >signup-signin</Link>
+   
+  <Link to="/signup"  >
+  {isAuth? username:"signup-signin" }
+  </Link>
+  <a onClick={()=>{toggleAuth()}}>
+  {isAuth? "logout":""}
+  </a>
+  
 <Link to ='/basket'>Basket<span style={{marginLeft:"10px"}}><LockIcon/></span> </Link>
   </div>
     </div>

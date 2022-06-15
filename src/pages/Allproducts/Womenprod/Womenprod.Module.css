@@ -1,0 +1,11 @@
+
+
+.productcont{
+   margin-left: 90px;
+   margin-top: 50px;
+    display: grid;
+    width: 90%;
+    grid-template-columns: 25% 25% 25% 25% ;
+   
+
+}

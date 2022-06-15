@@ -1,0 +1,22 @@
+
+
+.formlog{
+    margin-top: 50px;
+}
+
+.buttonlog{
+    background-color: aqua;
+    width: 100px;
+    height: 40px;
+}
+
+.inputboxlog{
+    width: 30%;
+    border: 1px solid grey;
+    margin-top: 30px;
+    height: 40px;
+}
+.imglog{
+    margin-top: 100px;
+    margin-left: 600px;
+}
