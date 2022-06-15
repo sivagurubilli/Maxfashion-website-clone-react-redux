@@ -1,0 +1,12 @@
+
+.trenddiv{
+    display: flex;
+  
+}
+.container{
+    margin-left: 100px;
+}
+
+ .trenddiv img{
+    margin-left: 10px;
+}

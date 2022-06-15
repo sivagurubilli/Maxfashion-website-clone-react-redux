@@ -2,13 +2,54 @@
 
 .footer1{
     display:flex;
+    margin-top: 30px;
 
 }
 
 .footer1r{
-    border: 1px solid red;
+   
     height: 200px;
-    width: 40%;
+    width: 50%;
+    margin-left: 20px;
+    text-align: left;
+   
 }
 
+.footer1l{
+   
+    height: 200px;
+    width: 50%;
+    margin-left: 20px;
+    text-align: left;
+}
 
+h2{
+    padding-left: 40px;
+    color: black;
+}
+h4{
+    padding-left: 40px;
+    color: grey;
+}
+
+.footer2{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 30px;
+}
+
+.footer3{
+    display: flex;
+    margin-top: 30px;
+}
+.footer4{
+    display: flex;
+    margin-top: 10px;
+}
+
+.about{
+    margin-left: 70px;
+}
+.home{
+    margin-left: 100px;
+}

@@ -19,7 +19,7 @@ const Navbar = () => {
             <img style={{height:"40px",width:"70px"}} src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Logo_of_Max_Fashion_and_Accessories%2C_March_2018.png/1920px-Logo_of_Max_Fashion_and_Accessories%2C_March_2018.png"></img>
           <Link to="/">Women</Link>
           <Link to="/mens">men</Link>
-          <Link to="/boys">boys</Link>
+          <Link to="/mens">boys</Link>
           <Link to="/girls">girls</Link>
            
 
