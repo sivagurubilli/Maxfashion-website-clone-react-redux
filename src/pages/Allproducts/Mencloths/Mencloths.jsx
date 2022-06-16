@@ -1,17 +1,17 @@
 import React, { useEffect,useState } from 'react'
 import axios from "axios"
 import Productbox from '../../../components/productbox/Productbox'
-import "./Womenprod.Module.css"
+import "../Womenprod/Womenprod"
 import Navbar from '../../../components/navbar/Navbar'
 import Footer from '../../../components/footer/Footer'
 
 
-const Womenprod = () => {
+const Mencloths = () => {
 
     const [wproduct,setwprod] = useState([])
 
 useEffect(()=>{
-    axios.get("http://localhost:5000/womencloths").then((r)=>{
+    axios.get("http://localhost:5000/menscloths").then((r)=>{
 
     setwprod(r.data)
 
@@ -43,4 +43,4 @@ useEffect(()=>{
   )
 }
 
-export default Womenprod
+export default Mencloths

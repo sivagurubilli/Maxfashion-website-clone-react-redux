@@ -43,7 +43,7 @@ axios.post('http://localhost:5000/login',data2)
     alert(response.data.message)
    if(response.status === 200){
     toggleAuth()
-    console.log(response.data)
+   
     username11(response.data.userdata)
       navigate("/")
 

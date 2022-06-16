@@ -1,7 +1,7 @@
 import React from 'react';
 import {useState} from 'react'
 import axios from 'axios';
-import {useNavigate} from 'react-router-dom';
+import {Link, useNavigate} from 'react-router-dom';
 
 import "./Signin.Module.css"
 import Footer from '../../components/footer/Footer';
@@ -80,9 +80,14 @@ const Signin = () => {
                    <button className='buttonsign'>Sign up</button>
                         </form >
 
-
+    </div>
+    <div style={{display:"flex",marginLeft:"600px"}}>
+    <h1 >Already signin </h1> <span><Link to ="/login" style={{color:"blue",marginLeft:"30px"}}>      login here    </Link></span>
     </div>
     <br/>
+    <hr />
+
+   
 <br />
  <hr />
  <Footer />

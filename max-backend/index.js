@@ -18,6 +18,7 @@ mongoose.connect("mongodb+srv://gurubilli:gurubilli@cluster0.dlpod.mongodb.net/m
 }
 
 )
+const Defaultdata = require("./Defaltdata")
 
 app.use("/login",require("./routers/loginRouter"))
 app.use("/auth",require("./routers/userRouter"))
@@ -27,3 +28,7 @@ app.use(router)
 
 
 app.listen(port,()=>console.log(`server start on port ${port}`))
+
+
+
+Defaultdata()
