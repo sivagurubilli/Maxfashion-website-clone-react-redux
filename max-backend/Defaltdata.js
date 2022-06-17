@@ -5,8 +5,8 @@ const productsdata = require("./mensproductdata")
 
 const Defaultdata = async()=>{
     try{
-        const storeData =  await Products.isertMany(productsdata)
-       console.log(storeData)
+        const storeData =  await Products.insertMany(productsdata)
+      
 
     }catch(err){
     console.log("error"+err.message)

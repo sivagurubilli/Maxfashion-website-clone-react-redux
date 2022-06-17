@@ -19,8 +19,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
      
 
     <BrowserRouter>
-    <PriceContextProvider> 
+     
     <EachPriceContextProvider>
+    <PriceContextProvider>
     <CartContextProvider>
     <AuthContextProvider>
     <UserContextProvider>
@@ -32,8 +33,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
     </AuthContextProvider>
     </CartContextProvider>
-    </EachPriceContextProvider>
     </PriceContextProvider>
+    </EachPriceContextProvider>
+    
     </BrowserRouter>
   
 

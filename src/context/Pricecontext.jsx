@@ -12,9 +12,12 @@ export const PriceContextProvider =({children})=>{
  const sumprice =(val)=>{
   setprice(price+val)
 }
+const sum1price =(val)=>{
+  setprice(val)
+}
 
  
- return <PriceContext.Provider value ={{price,sumprice}}>
+ return <PriceContext.Provider value ={{price,sumprice,sum1price}}>
 {children}
   </PriceContext.Provider>
 }

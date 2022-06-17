@@ -4,7 +4,7 @@ import React from 'react'
 import { useState } from 'react'
 import { useEffect } from 'react'
 import { useContext } from 'react'
-import { Navigate, useNavigate } from 'react-router-dom'
+import { Navigate, useNavigate,Link } from 'react-router-dom'
 import { CartContext } from '../../context/Cartcontext'
 import { EachPriceContext } from '../../context/Itemprice'
 import { PriceContext } from '../../context/Pricecontext'
@@ -12,7 +12,7 @@ import { PriceContext } from '../../context/Pricecontext'
 const Checkoutbox = () => {
  const   navigate = useNavigate()
     const [sum,setsum] = useState(0)
-    const {price,sumprice} = useContext(PriceContext)
+    const {price,sumprice,sum1price} = useContext(PriceContext)
     const {eachprice,eachsumprice} = useContext(EachPriceContext)
     const {cartdata,addcart} = useContext(CartContext)
 
@@ -33,6 +33,8 @@ const Checkoutbox = () => {
        navigate("/checkout")
     }
   return (
+    <>
+ 
     <div style={{margin:"50px 0px",height:"auto",border:"1px solid grey"}}>
 
 
@@ -73,8 +75,9 @@ const Checkoutbox = () => {
 
 
 
-
     </div>
+
+    </>
   )
 }
 

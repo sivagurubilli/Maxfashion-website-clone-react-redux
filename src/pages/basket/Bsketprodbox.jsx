@@ -10,7 +10,7 @@ const Bsketprodbox = ({e}) => {
    
     const [qty,setqty] = useState(1)
     const {cartdata,addcart,deletecart} = useContext(CartContext)
-const {price,sumprice} = useContext(PriceContext)
+const {price,sumprice,sum1price} = useContext(PriceContext)
   
  const {eachprice,eachsumprice} = useContext(EachPriceContext)
 
@@ -27,6 +27,7 @@ const {price,sumprice} = useContext(PriceContext)
         }
         setqty(qty+1)
        sumprice(e.price)
+       
     }
     const decrqty=()=>{
         if(qty<1){
@@ -38,6 +39,7 @@ const {price,sumprice} = useContext(PriceContext)
             return
         }
         sumprice(-e.price)
+        
     }
 
     

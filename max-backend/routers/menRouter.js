@@ -2,14 +2,14 @@ const express =require("express")
 
 
 const router = new express.Router();
-const mencloths = require("../models/mencloths")
+const menscloths = require("../models/mencloths")
 
 
 
 
- router.get('/mencloths', async (req,res) => {
+ router.get('/', async (req,res) => {
     try{
-    const products = await mencloths.find();
+    const products = await menscloths.find();
     res.send(products);
     }catch(err){
         console.log(err)
@@ -22,7 +22,7 @@ const mencloths = require("../models/mencloths")
 
 router.get('/:id', async(req,res) => {
     try{
-    const product = await mencloths.findById(req.params.id);
+    const product = await menscloths.findById(req.params.id);
 
     if(product){
         res.send(product);

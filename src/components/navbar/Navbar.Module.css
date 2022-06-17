@@ -25,3 +25,13 @@
     margin-right: 100px;
 
 }
+.navlink {
+    width:70px ;
+    height: 70px;
+    margin-left: 20px;
+  
+}
+
+.navlink :hover{
+    background-color:blue;
+}

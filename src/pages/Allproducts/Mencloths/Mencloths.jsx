@@ -11,7 +11,7 @@ const Mencloths = () => {
     const [wproduct,setwprod] = useState([])
 
 useEffect(()=>{
-    axios.get("http://localhost:5000/menscloths").then((r)=>{
+    axios.get("http://localhost:5000/mencloths").then((r)=>{
 
     setwprod(r.data)
 

@@ -24,11 +24,16 @@ const Navbar = () => {
         <div className='right'>
 
             <img style={{height:"40px",width:"70px"}} src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Logo_of_Max_Fashion_and_Accessories%2C_March_2018.png/1920px-Logo_of_Max_Fashion_and_Accessories%2C_March_2018.png"></img>
+         <div className ="navlink">
           <Link to="/">Women</Link>
+          </div>
+          <div className ="navlink">
           <Link to="/mens">men</Link>
+          </div> <div className ="navlink">
           <Link to="/mens">boys</Link>
+          </div> <div className ="navlink">
           <Link to="/girls">girls</Link>
-           
+           </div>
 
         </div>
         <div className='input'>      

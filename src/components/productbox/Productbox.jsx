@@ -18,7 +18,7 @@ sumprice(e.price)
     <div>
 <div  className='proddiv'>
 
-    <img  style={{height:"270px",width:"250px"}} src={e.img}/>
+    <img  style={{height:"270px",width:"280px"}} src={e.img}/>
     <h4>₹ {e.price} </h4>
   <h4>{e.name}</h4>
 <button className='buttonaddtoc' onClick={()=>addtocart(e)}>Add To Cart</button>

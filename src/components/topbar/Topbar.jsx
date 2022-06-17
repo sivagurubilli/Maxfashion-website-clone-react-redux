@@ -7,15 +7,18 @@ const Topbar = () => {
     <div className="topbar">
         <div className="topright" >
        <div className="feeshipping">
-        <h3>Free Shipping</h3>
+        <h3>
+🏠Free Shipping</h3>
 
          </div>
          <div className="feeshipping">
-        <h3>Free Shipping</h3>
+        <h3>
+🏠Return to store</h3>
 
          </div>
          <div className="feeshipping">
-        <h3>Free Shipping</h3>
+        <h3>
+🏠click & collect</h3>
 
          </div>
 

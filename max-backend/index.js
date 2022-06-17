@@ -19,11 +19,12 @@ mongoose.connect("mongodb+srv://gurubilli:gurubilli@cluster0.dlpod.mongodb.net/m
 
 )
 const Defaultdata = require("./Defaltdata")
-
+app.use("/mencloths",require("./routers/menRouter"))
 app.use("/login",require("./routers/loginRouter"))
 app.use("/auth",require("./routers/userRouter"))
 
 app.use(router)
+
 
 
 
