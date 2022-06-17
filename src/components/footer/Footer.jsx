@@ -137,9 +137,9 @@ const Footer = () => {
 <hr/>
 
 <div className='footer4'>
-<img style={{height:"40px",width:"70px" ,margin:"20px"}} src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Logo_of_Max_Fashion_and_Accessories%2C_March_2018.png/1920px-Logo_of_Max_Fashion_and_Accessories%2C_March_2018.png"></img>
+<img style={{height:"40px",width:"70px" ,margin:"20px 200px"}} src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Logo_of_Max_Fashion_and_Accessories%2C_March_2018.png/1920px-Logo_of_Max_Fashion_and_Accessories%2C_March_2018.png"></img>
 
- <h4 style={{margin:"20px"}}>© 2022 Retail World Limited.</h4>
+ <h4 style={{margin:"20px 200px"}}>© 2022 Retail World Limited.</h4>
 
 
 

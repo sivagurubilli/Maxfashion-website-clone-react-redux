@@ -1,2 +1,29 @@
 
 
+.checkoutcontainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.checkoutleft{
+    width: 50%;
+    margin-left: 100px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.checkoutright{
+    width: 40%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.homedelbox{
+  height: 80px;
+  width: 300px;
+  border: 1px solid grey;
+  margin: 10px 10px;
+
+
+}
