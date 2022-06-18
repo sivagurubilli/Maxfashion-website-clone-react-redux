@@ -48,7 +48,7 @@ const Navbar = () => {
   {isAuth? username:"signup-signin" }
   </Link>
   <a onClick={()=>{toggleAuth()}}>
-  {isAuth? "logout":""}
+  {isAuth? <a style={{cursor:"pointer",marginLeft:"10px"}}>Logout</a>:""}
   </a>
   
 <Link to ='/basket'>Basket<span style={{marginLeft:"10px"}}><LockIcon/></span> </Link>

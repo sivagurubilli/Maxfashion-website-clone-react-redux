@@ -2,7 +2,6 @@ import React, { useContext } from 'react'
 import Checkoutnav from '../../components/Checkoutnav'
 import Footer from '../../components/footer/Footer'
 import { PriceContext } from '../../context/Pricecontext'
-import Adressbox from './Adressbox'
 
 import "./Checkout.Module.css"
 import Ordersummarybox from './Ordersummarybox'
@@ -29,8 +28,8 @@ const Checkoutpage = () => {
   </div>
    </div>
    <br />
-   <Adressbox />
-  <br />
+  
+ 
  
  <Paaymentbox />
   <hr />
@@ -43,7 +42,7 @@ const Checkoutpage = () => {
 
 <div style={{display:"flex",justifyContent:"space-around"}}>
 
-  <h4  style={{marginTop:"20px"}}>Sub Total: </h4> <h4  style={{marginTop:"20px"}}> ₹ {price}</h4>
+  <h4  style={{marginTop:"20px"}}>Sub Total: </h4> <h4  style={{marginTop:"20px" ,backgroundColor:"green",color:"white",padding:'5px 10px 2px 10px'}}> ₹ {price}</h4>
 
 </div>
 <br />
@@ -58,7 +57,7 @@ const Checkoutpage = () => {
 <hr />
 <div style={{display:"flex",justifyContent:"space-around"}}>
 
-  <h4  style={{marginTop:"20px"}}>Total: </h4> <h4  style={{marginTop:"20px"}}>₹{price}</h4>
+  <h4  style={{marginTop:"20px"}}>Total: </h4> <h4  style={{marginTop:"20px",backgroundColor:"green",color:"white",padding:'5px 10px 2px 10px'}}>₹{price}</h4>
 
 </div>
 <br />

@@ -42,7 +42,8 @@ const Checkoutbox = () => {
  <div style={{display:"flex",margin:"10px 2px"}}>
    <h2>Deliver to</h2> <input placeholder='enter pincode' style={{border:"1px solid grey",marginLeft:"20px"}} /> <button style={{marginLeft:"20px",backgroundColor:"grey",height:"30px",width:"60px"}}>Check</button>
  </div>
- <div style={{backgroundColor:"lightpink",height:"40px",width:"350px",marginLeft:"20px"}}>enter pincode in above box</div>
+ <div style={{backgroundColor:"lightpink",height:"40px",width:"350px",margin:"30px 20px"}}>
+  <h3 style={{margin:"20px 0px"}}>enter pincode in above box</h3></div>
 
         </div>
         <div style={{border:"1px solid grey",height:"90px",width:"400px",margin:"20px 20px",display:"flex"}}>

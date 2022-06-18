@@ -8,6 +8,7 @@
     background-color: aqua;
     width: 100px;
     height: 40px;
+    border-radius: 10px;
 }
 
 .inputboxlog{
@@ -15,8 +16,9 @@
     border: 1px solid grey;
     margin-top: 30px;
     height: 40px;
+    padding-left: 20px;
 }
 .imglog{
-    margin-top: 100px;
+    margin-top: 10px;
     margin-left: 600px;
 }

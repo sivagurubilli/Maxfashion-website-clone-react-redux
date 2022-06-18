@@ -57,13 +57,13 @@ const {price,sumprice,sum1price} = useContext(PriceContext)
     <h4 style={{marginTop:"20px"}}>Size: {e.size}</h4>
 </div>
 <div style={{margin:"50px 0px"}}>
-<button onClick={()=>removeitem(e._id)} style={{backgroundColor:"grey",color:"white",height:"30px",width:'120px'}}>remove</button>
+<button onClick={()=>removeitem(e._id)} style={{backgroundColor:"blue",borderRadius:"10px",color:"white",height:"30px",width:'100px'}}>remove</button>
 <br />
-<button onClick={()=>incrqty()} style={{backgroundColor:'grey',color:"white",margin:"10px 20px",height:"30px",width:'80px'}}>qty +</button >
+<button onClick={()=>incrqty()} style={{backgroundColor:'blue',borderRadius:"7px",color:"white",margin:"10px 20px",height:"30px",width:'80px'}}>qty +</button >
 <br />
 {qty}
 <br />
- <button  onClick ={()=>decrqty()} style={{backgroundColor:'grey',color:"white",margin:"10px 20px",height:"30px",width:'80px'}}>qty-</button>
+ <button  onClick ={()=>decrqty()} style={{backgroundColor:'blue',borderRadius:"7px",color:"white",margin:"10px 20px",height:"30px",width:'80px'}}>qty-</button>
 
 </div>
         </div>

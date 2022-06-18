@@ -25,7 +25,7 @@ const Signin = () => {
         e.preventDefault();
      
    
-    axios.post("http://localhost:5000/auth",data1)
+    axios.post("https://maxfashionbackend.herokuapp.com/auth",data1)
     
     .then(response =>{
         alert(response.data)
@@ -41,10 +41,14 @@ const Signin = () => {
     <>
    <Navbar />
     <div className='formboxsign'>
+    <div style={{display:"flex",marginLeft:"400px",marginTop:"20px"}}>
+    <h1 >Already signin </h1> <span><Link to ="/login" style={{color:"blue",marginLeft:"30px",border:"1px solid grey"}}>      login here    </Link></span>
+   
+    </div>
 
 <form method='POST' onSubmit = {submitHandler}>
   
-<img  style={{height:"40px",width:"70px",margin:"30px 300px"}} src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Logo_of_Max_Fashion_and_Accessories%2C_March_2018.png/1920px-Logo_of_Max_Fashion_and_Accessories%2C_March_2018.png"></img>
+<img  style={{height:"40px",width:"70px",margin:"0px 100px"}} src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Logo_of_Max_Fashion_and_Accessories%2C_March_2018.png/1920px-Logo_of_Max_Fashion_and_Accessories%2C_March_2018.png"></img>
 <br />
   <input className='inputboxsign' type="name" id="firstname"
                     placeholder="First Name *"
@@ -81,9 +85,7 @@ const Signin = () => {
                         </form >
 
     </div>
-    <div style={{display:"flex",marginLeft:"600px"}}>
-    <h1 >Already signin </h1> <span><Link to ="/login" style={{color:"blue",marginLeft:"30px"}}>      login here    </Link></span>
-    </div>
+   
     <br/>
     <hr />
 

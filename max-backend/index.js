@@ -22,6 +22,7 @@ const Defaultdata = require("./Defaltdata")
 app.use("/mencloths",require("./routers/menRouter"))
 app.use("/login",require("./routers/loginRouter"))
 app.use("/auth",require("./routers/userRouter"))
+app.use("/checkout",require("./routers/addressRouter"))
 
 app.use(router)
 
