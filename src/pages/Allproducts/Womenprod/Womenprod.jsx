@@ -89,7 +89,13 @@ onClick={()=>{
   {wproduct.length>=1?
 <div className='productcont'>
     {perpage.map(e =>  <Productbox key={e._id} e={e}/>)}
+    
+    <div >
+<hr />
+
+  
     <Pagination data = {wproduct} pageHandler={pageHandler}/>
+    </div>
     </div>
 :<p>Data not loaded</p>
   }

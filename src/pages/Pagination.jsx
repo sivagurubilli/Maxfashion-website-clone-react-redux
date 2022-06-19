@@ -9,14 +9,17 @@ for(let i =1;i<Math.ceil(data.length/8);i++){
 }
 
   return (
-    <div style={{marginLeft:"00px",textAlign:"end",display:"flex"}}>
-<p style={{margin:"20px  2px 3px 700px"}}>pages:</p>
-        <center style={{display:"flex",marginLeft:"00px"}}>
+    <>
+   
+    <div style={{display:"flex"}}>
+<p style={{margin:"50px  40px 3px 600px",width:"300px"}}>show more products:</p>
+        <center style={{display:"flex",marginTop:"50px"}}>
             {pageNumbers.map(page=>
-                <div style={{margin:"20px",height:"30px",width:"40px",border:"1px solid grey",color:"white",backgroundColor:"green"}}
+                <div style={{margin:"20px",height:"30px",width:"40px",border:"1px solid grey",cursor:"pointer",color:"white",backgroundColor:"green"}}
                 onClick={()=>pageHandler(page)}>{page}</div>)}
         </center>
     </div>
+    </>
   )
 }
 

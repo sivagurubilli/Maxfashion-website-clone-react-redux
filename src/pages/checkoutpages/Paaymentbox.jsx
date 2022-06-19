@@ -48,7 +48,7 @@ const Paaymentbox = () => {
        .then(response =>{
         
         if(response.status===200){
-
+console.log("ok")
 
            onOpen()
          //alert("your payment is done successfully items will be deliverd to your address with in 5 days")

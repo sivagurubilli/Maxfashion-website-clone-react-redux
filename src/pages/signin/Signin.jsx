@@ -42,7 +42,7 @@ const Signin = () => {
    <Navbar />
     <div className='formboxsign'>
     <div style={{display:"flex",marginLeft:"400px",marginTop:"20px"}}>
-    <h1 >Already signin </h1> <span><Link to ="/login" style={{color:"blue",marginLeft:"30px",border:"1px solid grey"}}>      login here    </Link></span>
+    <h1 >Already signin </h1> <span><Link to ="/login" style={{marginLeft:"30px",border:"1px solid grey",backgroundColor:"green",color:"white"}}>login here </Link></span>
    
     </div>
 

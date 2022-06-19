@@ -8,7 +8,7 @@
 }
 .right{
     display: flex;
-    width: 25%;
+    width: 30%;
     justify-content: space-between;
     margin-top: 25px;
     margin-left: 100px;
@@ -28,10 +28,11 @@
 .navlink {
     width:70px ;
     height: 70px;
-    margin-left: 20px;
+    margin-left: 15px;
   
 }
 
 .navlink :hover{
-    background-color:blue;
+    
+    color:blue;
 }

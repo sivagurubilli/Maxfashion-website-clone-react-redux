@@ -30,11 +30,11 @@ const {isAuth,toggleAuth} = useContext(AuthContext)
  <Route path ="/login" element ={<Login />}></Route>
 
  <Route path='/checkout' element={<Checkoutpage />}></Route>
- <Route path='/basket' element={<Basket/>}></Route>
+ {/*<Route path='/basket' element={<Basket/>}></Route>*/}
  
- {/*<Route path ="/basket" element ={<Protectroute  isAuth={isAuth}>
+ <Route path ="/basket" element ={<Protectroute  isAuth={isAuth}>
   <Basket  />
-  </Protectroute>}></Route>*/}
+  </Protectroute>}></Route>
 
 <Route path='/products/womenprod' element={<Womenprod />}></Route>
 <Route path='/products/menprod' element={<Mencloths />}></Route>
