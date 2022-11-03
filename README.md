@@ -4,8 +4,8 @@ Hi most of you would be knowing about <u>[maxfashion.com](https://maxfashion.com
 <br/>
 
 
-### **Deployed Link** : https://fraazo-guru.netlify.app/
-### **Backend API Link** : https://fraazo-guru.herokuapp.com/
+### **Deployed Link** : https://maxfashion33.netlify.app/
+### **Backend API Link** : https://maxfashionbackend.herokuapp.com/
 
 <br/>
  <h2>Tools and Packages used in this Project   :</h2> 
@@ -21,8 +21,8 @@ Hi most of you would be knowing about <u>[maxfashion.com](https://maxfashion.com
     . react-toastify
     . redux
     . redux-thunk 
-    . @mui/material
-    . @stripe/react-stripe-js
+    . chakraUI
+    
    
 
 ### Backend Side:
@@ -39,16 +39,16 @@ Hi most of you would be knowing about <u>[maxfashion.com](https://maxfashion.com
 <hr/>
 
  ### Landing Page :
-  <div> <img src="https://github.com/sivagurubilli/fraazo-clone/blob/main/frontend/src/Images/Screenshot%20(242).png?raw=true"> </div>
+  <div> <img src="https://github.com/sivagurubilli/Maxfashion-website-clone-react-redux/blob/master/Screenshot%20(189).png?raw=true"> </div>
 <hr/>
  <h3>All items by Category Page  : </h3> 
-  <div> <img src= "https://github.com/sivagurubilli/fraazo-clone/blob/main/frontend/src/Images/Screenshot%20(245).png?raw=true"> </div>
+  <div> <img src= "https://github.com/sivagurubilli/Maxfashion-website-clone-react-redux/blob/master/frontend/src/Screenshot%20(247).png?raw=true"> </div>
 <hr/>
  <h3>Login and Signup Page  : </h3> 
-  <div> <img src="https://github.com/sivagurubilli/fraazo-clone/blob/main/frontend/src/Images/Screenshot%20(243).png?raw=true"> </div>
+  <div> <img src="https://github.com/sivagurubilli/Maxfashion-website-clone-react-redux/blob/master/frontend/src/Screenshot%20(246).png?raw=true"> </div>
 <hr/>
  <h3>Checkout Page  : </h3> 
-  <div> <img src="https://github.com/sivagurubilli/fraazo-clone/blob/main/frontend/src/Images/Screenshot%20(244).png?raw=true"> </div>
+  <div> <img src="https://github.com/sivagurubilli/Maxfashion-website-clone-react-redux/blob/master/frontend/src/Screenshot%20(248).png?raw=true"> </div>
 <hr/>
 
 ## Running it on your local machine
@@ -61,8 +61,8 @@ You need latest version of NodeJS and Yarn installed, which is a dependency mana
 
 Once you have that, run following commands to get the project up and running:
 
-    git clone https://github.com/sivagurubilli/fraazo-clone.git
-    cd fraazo-clone
+    git clone https://github.com/sivagurubilli/Maxfashion-website-clone-react-redux.git
+    cd Maxfashion-website-clone-react-redux
     npm  install
     npm run dev
     Runs the app in developement mode.
