@@ -11,7 +11,7 @@ const Mencloths = () => {
     const [wproduct,setwprod] = useState([])
 
 useEffect(()=>{
-    axios.get("https://maxfashionbackend.herokuapp.com/mencloths").then((r)=>{
+    axios.get("https://maxfashion.onrender.com/mencloths").then((r)=>{
 
     setwprod(r.data)
 

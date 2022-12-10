@@ -39,7 +39,7 @@ const [sortOpt,setSortOpt] = useState({})
     
 
 useEffect(()=>{
-    axios.get(`https://maxfashionbackend.herokuapp.com/womencloths`).then((r)=>{
+    axios.get(`https://maxfashion.onrender.com/womencloths`).then((r)=>{
 //console.log(r.data.length)
     setwprod(r.data)
     setPerpage(r.data.slice(0,8))

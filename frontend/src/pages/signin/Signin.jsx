@@ -25,7 +25,7 @@ const Signin = () => {
         e.preventDefault();
      
    
-    axios.post("https://maxfashionbackend.herokuapp.com/auth",data1)
+    axios.post("https://maxfashion.onrender.com/auth",data1)
     
     .then(response =>{
         alert(response.data)

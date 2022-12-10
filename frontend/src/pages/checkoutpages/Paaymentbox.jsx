@@ -43,7 +43,7 @@ const Paaymentbox = () => {
         e.preventDefault();
        
        
-       axios.post("https://maxfashionbackend.herokuapp.com/checkout",data1)
+       axios.post("https://maxfashion.onrender.com/checkout",data1)
        
        .then(response =>{
         
