@@ -39,7 +39,8 @@ Hi most of you would be knowing about <u>[maxfashion.com](https://maxfashion.com
 <hr/>
 
  ### Landing Page :
-  <div> <img src="https://github.com/sivagurubilli/Maxfashion-website-clone-react-redux/blob/master/Screenshot%20(189).png?raw=true"> </div>
+![Screenshot (189)](https://user-images.githubusercontent.com/92457968/232822488-b572ff52-26bc-4627-a431-babd1fc53374.png)
+
 <hr/>
  <h3>All items by Category Page  : </h3> 
   <div> <img src= "https://github.com/sivagurubilli/Maxfashion-website-clone-react-redux/blob/master/frontend/src/Screenshot%20(247).png?raw=true"> </div>
